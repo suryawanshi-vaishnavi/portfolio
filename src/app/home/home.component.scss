@@ -1,0 +1,20 @@
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(to right, #000000, #1c1c1c);
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero h3 {
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.btn-lg {
+  border-radius: 30px;
+  padding: 10px 25px;
+}
