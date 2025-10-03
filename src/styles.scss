@@ -1,3 +1,22 @@
+:root {
+  --bs-primary: #d63484 !important;
+}
+
+.text-primary {
+  color: var(--bs-primary) !important;
+}
+
+.bg-primary,
+.badge.bg-primary {
+  background-color: var(--bs-primary) !important;
+}
+
+.btn-primary {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+
+
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -5,5 +24,5 @@ body {
   background-color: #000;  // black
   color: #fff;             // make text white so it’s readable
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: Inter, sans-serif;
 }
